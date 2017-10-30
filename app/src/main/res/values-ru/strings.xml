@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Крутяцкий погодный апп</string>
+    <string name="textview_welcome">Приветствуем в погодном приложении!</string>
+    <string name="choosecity_textview">Выберите Ваш город</string>
+    <string name="show_button_text">Выбрать</string>
+
+    <string-array name="cities">
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Вологда</item>
+        <item>Хабаровск</item>
+    </string-array>
+    <string-array name="city_weather">
+        <item>+3, дождь</item>
+        <item>+2, облачно</item>
+        <item>0, ясно</item>
+        <item>-2, снег</item>
+    </string-array>
+</resources>

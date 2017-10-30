@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Awesome Weather App</string>
+    <string name="textview_welcome">Welcome to the Awesome Weather App!</string>
+    <string name="choosecity_textview">Choose your city</string>
+    <string name="show_button_text">Choose</string>
+
+    <string-array name="cities">
+        <item>Moscow</item>
+        <item>St.Petersburg</item>
+        <item>Vologda</item>
+        <item>Khabarovsk</item>
+    </string-array>
+    <string-array name="city_weather">
+        <item>+3, rain</item>
+        <item>+2, cloudy</item>
+        <item>0, clear</item>
+        <item>-2, snow</item>
+    </string-array>
+</resources>
