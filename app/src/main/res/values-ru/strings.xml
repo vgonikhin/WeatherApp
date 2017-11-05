@@ -3,6 +3,8 @@
     <string name="textview_welcome">Приветствуем в погодном приложении!</string>
     <string name="choosecity_textview">Выберите Ваш город</string>
     <string name="show_button_text">Выбрать</string>
+    <string name="edittext_hint">Введите позицию города</string>
+    <string name="share_button_text">Заделиться</string>
 
     <string-array name="cities">
         <item>Москва</item>

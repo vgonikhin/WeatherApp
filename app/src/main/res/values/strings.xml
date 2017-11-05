@@ -3,6 +3,9 @@
     <string name="textview_welcome">Welcome to the Awesome Weather App!</string>
     <string name="choosecity_textview">Choose your city</string>
     <string name="show_button_text">Choose</string>
+    <string name="imageview_description">logo</string>
+    <string name="edittext_hint">Enter city position</string>
+    <string name="share_button_text">Share</string>
 
     <string-array name="cities">
         <item>Moscow</item>

@@ -22,7 +22,8 @@
         android:layout_width="wrap_content"
         android:layout_height="240dp"
         android:layout_gravity="center"
-        app:srcCompat="@drawable/weather" />
+        app:srcCompat="@drawable/weather"
+        android:contentDescription="@string/imageview_description" />
 
     <TextView
         android:id="@+id/instruction_textview"
@@ -46,11 +47,5 @@
         android:layout_width="@dimen/spinner_width"
         android:layout_height="wrap_content"
         android:text="@string/show_button_text"/>
-
-    <TextView
-        android:id="@+id/weather_textview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/standard_margin"/>
 
 </LinearLayout>
