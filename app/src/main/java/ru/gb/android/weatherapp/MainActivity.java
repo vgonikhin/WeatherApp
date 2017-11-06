@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(onClickListener);
         spinner = findViewById(R.id.choosecity_spinner);
         if(savedInstanceState!=null){
-            Log.d("--------------", "savedInstance");
-            spinner.setSelection(savedInstanceState.getInt(BUNDLE_CITY_POSITION));
+            Log.d("--------------", "savedInstance "+savedInstanceState.getInt(BUNDLE_CITY_POSITION));
+            spinner.setSelection(0);
         }
         //loadCity();
     }
