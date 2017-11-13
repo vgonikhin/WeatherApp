@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical" >
+    
+
 
     <TextView
         android:id="@+id/welcome_textview"
@@ -25,29 +27,6 @@
         app:srcCompat="@drawable/weather"
         android:contentDescription="@string/imageview_description" />
 
-    <TextView
-        android:id="@+id/instruction_textview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/choosecity_textview"
-        android:textColor="@color/colorPrimary"
-        android:textSize="@dimen/standard_text_size"/>
-
-    <Spinner
-        android:id="@+id/choosecity_spinner"
-        android:layout_width="@dimen/spinner_width"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/standard_margin"
-        android:entries="@array/cities">
-    </Spinner>
-
-    <Button
-        android:id="@+id/show_weather_button"
-        android:layout_width="@dimen/spinner_width"
-        android:layout_height="wrap_content"
-        android:text="@string/show_button_text"/>
-
     <CheckBox
         android:id="@+id/checkbox_show_pressure"
         android:layout_width="wrap_content"
@@ -58,5 +37,35 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/show_wind_checkbox" />
+
+    <TextView
+        android:id="@+id/instruction_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/choosecity_textview"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/standard_text_size"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/cities_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!--<Spinner-->
+        <!--android:id="@+id/choosecity_spinner"-->
+        <!--android:layout_width="@dimen/spinner_width"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="@dimen/standard_margin"-->
+        <!--android:entries="@array/cities">-->
+    <!--</Spinner>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/show_weather_button"-->
+        <!--android:layout_width="@dimen/spinner_width"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/show_button_text"/>-->
+
+
 
 </LinearLayout>
