@@ -48,4 +48,15 @@
         android:layout_height="wrap_content"
         android:text="@string/show_button_text"/>
 
+    <CheckBox
+        android:id="@+id/checkbox_show_pressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_pressure_checkbox" />
+    <CheckBox
+        android:id="@+id/checkbox_show_wind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_wind_checkbox" />
+
 </LinearLayout>

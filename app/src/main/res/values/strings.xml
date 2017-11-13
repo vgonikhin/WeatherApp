@@ -6,6 +6,8 @@
     <string name="imageview_description">logo</string>
     <string name="edittext_hint">Enter city position</string>
     <string name="share_button_text">Share</string>
+    <string name="show_pressure_checkbox">Show pressure</string>
+    <string name="show_wind_checkbox">Show wind info</string>
 
     <string-array name="cities">
         <item>Moscow</item>
@@ -18,5 +20,17 @@
         <item>+2, cloudy</item>
         <item>0, clear</item>
         <item>-2, snow</item>
+    </string-array>
+    <string-array name="city_pressure">
+        <item>730 mmHg</item>
+        <item>755 mmHg</item>
+        <item>700 mmHg</item>
+        <item>710 mmHg</item>
+    </string-array>
+    <string-array name="city_wind">
+        <item>NE, 3 m/s</item>
+        <item>SE, 13 m/s</item>
+        <item>E, 1 m/s</item>
+        <item>NW, 6 m/s</item>
     </string-array>
 </resources>

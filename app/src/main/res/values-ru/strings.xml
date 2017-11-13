@@ -3,8 +3,11 @@
     <string name="textview_welcome">Приветствуем в погодном приложении!</string>
     <string name="choosecity_textview">Выберите Ваш город</string>
     <string name="show_button_text">Выбрать</string>
+    <string name="imageview_description">лого</string>
     <string name="edittext_hint">Введите позицию города</string>
     <string name="share_button_text">Заделиться</string>
+    <string name="show_pressure_checkbox">Показывать давление</string>
+    <string name="show_wind_checkbox">Показывать данные о ветре</string>
 
     <string-array name="cities">
         <item>Москва</item>
@@ -17,5 +20,17 @@
         <item>+2, облачно</item>
         <item>0, ясно</item>
         <item>-2, снег</item>
+    </string-array>
+    <string-array name="city_pressure">
+        <item>730 мм рт.ст.</item>
+        <item>755 мм рт.ст.</item>
+        <item>700 мм рт.ст.</item>
+        <item>710 мм рт.ст.</item>
+    </string-array>
+    <string-array name="city_wind">
+        <item>СВ, 3 м/с</item>
+        <item>ЮВ, 13 м/с</item>
+        <item>В, 1 м/с</item>
+        <item>СЗ, 6 м/с</item>
     </string-array>
 </resources>
