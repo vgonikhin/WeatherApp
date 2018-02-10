@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/welcome_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/textview_welcome"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/standard_text_size"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_show_pressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_pressure_checkbox" />
+    <CheckBox
+        android:id="@+id/checkbox_show_wind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_wind_checkbox" />
+
+    <TextView
+        android:id="@+id/instruction_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/choosecity_textview"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/standard_text_size"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/cities_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
